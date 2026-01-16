@@ -7,7 +7,7 @@ import VisaSvg from "../assets/img/buy-dc-power-visa.svg"
 
 export default function PreFooterSection() {
     return (
-        <section>
+        <section id="pre-section">
             <figure className="width-fix container">
                 <img src={TabletLogo} alt="Logo on tablet" className="img-width-fix" />
                 <figcaption>DIGITAL COMICS</figcaption>

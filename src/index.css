@@ -27,7 +27,7 @@ main>p {
     color: white;
 }
 
-section {
+#pre-section {
     background-color: #0282f9;
     display: flex;
     gap: 20px;
@@ -58,4 +58,50 @@ img {
 
 figcaption {
     margin-left: 20px;
+}
+
+footer {
+    background-image: url("./assets/img/footer-bg.jpg");
+}
+
+.white-text-titles {
+    font-weight: 800;
+    color: white;
+}
+
+.list-text {
+    color: grey;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#margin-fix {
+    margin-left: 100px;
+}
+
+section {
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.white-text {
+    color: white;
+    border: 3px solid #1263af;
+    padding: 10px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
+#after-footer {
+    align-items: center;
+    gap: 10px;
 }
