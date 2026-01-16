@@ -62,6 +62,7 @@ figcaption {
 
 footer {
     background-image: url("./assets/img/footer-bg.jpg");
+
 }
 
 .white-text-titles {
@@ -96,6 +97,11 @@ section {
     padding: 10px;
 }
 
+.white-text img {
+    width: 100px;
+    height: 100px;
+}
+
 .logo-img {
     width: 30px;
     height: 30px;
@@ -104,4 +110,11 @@ section {
 #after-footer {
     align-items: center;
     gap: 10px;
+}
+
+.img-fit {
+    object-fit: cover;
+    width: 500px;
+    height: 256px;
+    margin-left: 250px
 }

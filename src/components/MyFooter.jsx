@@ -3,6 +3,7 @@ import PeriscopeLogo from "../assets/img/footer-periscope.png"
 import PinterestLogo from "../assets/img/footer-pinterest.png"
 import TwitterLogo from "../assets/img/footer-twitter.png"
 import YoutubeLogo from "../assets/img/footer-youtube.png"
+import DcLogoBackground from "../assets/img/dc-logo-bg.png"
 
 
 
@@ -54,6 +55,8 @@ export default function MyFooter() {
                         <li className="list-text">DC Power Visa</li>
                     </ul>
                 </div>
+                <img src={DcLogoBackground} className="img-fit" />
+
             </footer>
             <section>
                 <div className="white-text">
