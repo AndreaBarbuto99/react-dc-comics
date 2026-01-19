@@ -13,8 +13,9 @@ export default function MyMain() {
                     </div>
                 )
                 )}
-
+                <button className="my-btn">LOAD MORE</button>
             </div>
+
         </main>
     )
 }

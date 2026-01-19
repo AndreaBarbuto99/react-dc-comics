@@ -139,4 +139,20 @@ section {
     gap: 10px;
     margin: 0 200px 0 200px;
     padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.my-btn {
+    margin: 0 auto;
+    width: 15%;
+    display: block;
+    /* button style */
+    background-color: #0282f9;
+    color: white;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+
+
 }
