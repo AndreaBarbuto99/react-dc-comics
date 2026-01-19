@@ -153,4 +153,67 @@ const comics = [
   },
 ];
 
-export default comics
+const NavCategories = [
+  {
+    id: 0,
+    title: "characters",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 1,
+    title: "comics",
+    current: true,
+    url: "#",
+  },
+  {
+    id: 2,
+    title: "movies",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 3,
+    title: "tv",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 4,
+    title: "games",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 5,
+    title: "collectibles",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 6,
+    title: "videos",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 7,
+    title: "fans",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 8,
+    title: "news",
+    current: false,
+    url: "#",
+  },
+  {
+    id: 9,
+    title: "shop",
+    current: false,
+    url: "#",
+  },
+];
+
+export { comics, NavCategories };

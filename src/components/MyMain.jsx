@@ -1,4 +1,4 @@
-import comics from "../comics"
+import { comics } from "../comics"
 
 
 export default function MyMain() {
@@ -12,7 +12,7 @@ export default function MyMain() {
             <div className="card-container">
                 {comics.map((comic) => (
 
-                    <div className="comic-card" id={comic.id}>
+                    <div className="comic-card" key={comic.id}>
                         <img src={comic.thumb} alt={comic.title} />
                         <h4>{comic.series.toUpperCase()}</h4>
                     </div>

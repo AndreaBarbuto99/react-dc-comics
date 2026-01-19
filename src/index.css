@@ -9,16 +9,33 @@ body {
     box-sizing: border-box;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
 }
 
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-active {
+    color: #0282f9;
+    padding-bottom: 49px;
+    border-bottom: 5px solid #0282f9;
+}
+
 #flex-list {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     margin-right: 300px;
+    margin-bottom: 0;
+}
+
+#flex-list li {
+    color: grey;
+    font-weight: 600;
 }
 
 main {

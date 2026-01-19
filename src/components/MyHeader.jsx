@@ -1,25 +1,24 @@
 import DcLogo from "../assets/img/dc-logo.png"
+import { NavCategories } from "../comics"
 
 export default function MyHeader() {
     return (
         <header>
-            <figure>
-                <img src={DcLogo} alt="DC Logo" />
-            </figure>
-            <ul id="flex-list">
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
-            </ul>
+            <nav>
+                <figure>
+                    <img src={DcLogo} alt="DC Logo" />
+                </figure>
+                <ul id="flex-list">
+                    {NavCategories.map((category) =>
+                    (
+                        <li key={category.id}>
+                            <a href={category.url} className={category.current ? "nav-active" : ""}>{category.title.toUpperCase()}</a>
+                        </li>
+                    )
+                    )}
+                </ul>
 
-
+            </nav>
         </header>
     )
 }
