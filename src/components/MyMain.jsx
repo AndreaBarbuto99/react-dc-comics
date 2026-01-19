@@ -1,10 +1,20 @@
-
+import comics from "../comics"
 
 
 export default function MyMain() {
     return (
         <main>
-            <p>--&gt; Content goes here &lt;--</p>
+            <div className="card-container">
+                {comics.map((comic) => (
+
+                    <div className="comic-card" id={comic.id}>
+                        <img src={comic.thumb} alt={comic.title} />
+                        <h4>{comic.series.toUpperCase()}</h4>
+                    </div>
+                )
+                )}
+
+            </div>
         </main>
     )
 }
