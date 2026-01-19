@@ -4,6 +4,11 @@ import comics from "../comics"
 export default function MyMain() {
     return (
         <main>
+            <div className="jumbotron">
+                <div className="jumbo-label">
+                    CURRENT SERIES
+                </div>
+            </div>
             <div className="card-container">
                 {comics.map((comic) => (
 

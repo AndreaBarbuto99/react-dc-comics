@@ -153,6 +153,23 @@ section {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0px;
+}
 
+.jumbotron {
+    background-image: url(/src/assets/img/jumbotron.jpg);
+    height: 400px;
+    position: relative;
+}
+
+.jumbo-label {
+    background-color: #0282f9;
+    width: 10%;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 110%;
+    position: absolute;
+    top: 380px;
+    left: 200px;
 
 }
