@@ -1,4 +1,5 @@
-import { comics } from "../comics"
+
+import MyCardList from "./MyCardList"
 
 
 export default function MyMain() {
@@ -9,17 +10,9 @@ export default function MyMain() {
                     CURRENT SERIES
                 </div>
             </div>
-            <div className="card-container">
-                {comics.map((comic) => (
+            <MyCardList />
+            <button className="my-btn">LOAD MORE</button>
 
-                    <div className="comic-card" key={comic.id}>
-                        <img src={comic.thumb} alt={comic.title} />
-                        <h4>{comic.series.toUpperCase()}</h4>
-                    </div>
-                )
-                )}
-                <button className="my-btn">LOAD MORE</button>
-            </div>
 
         </main>
     )
